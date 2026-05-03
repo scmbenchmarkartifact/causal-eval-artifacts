@@ -14,7 +14,7 @@ batch-job, and scratch-result code from the development repository.
 data/
   benchmarks/      Frozen official runtime benchmark YAML files
   samples/         Small smoke-test benchmark and prediction files
-  metadata/        Draft Croissant metadata for dataset-hosting submission
+  metadata/        Croissant metadata for dataset-hosting submission
 docs/
   benchmark_card.md
   data_schema.md
@@ -136,6 +136,18 @@ python scripts/validate_paper_results.py \
 
 This command does not run LLM calls, symbolic solvers, SCM generation, or
 re-scoring.
+
+## Dataset Metadata
+
+For NeurIPS Evaluations & Datasets submission, use this repository URL as the
+dataset URL and upload:
+
+```text
+data/metadata/croissant.json
+```
+
+The Croissant file includes core metadata plus Responsible AI fields for the
+synthetic benchmark data.
 
 ## Reproduce Offline Reports
 

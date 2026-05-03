@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6229,
-      "sha256": "eb80100a508c6d12ddcae64caf7dccc6c37cfc17b65ab682b2b914de5be3964b"
+      "bytes": 6493,
+      "sha256": "539589a903389b1e5c044dd11cacf6c2ca850379a404850b9acca85eaefe14c4"
     },
     {
       "path": "data/benchmarks/README.md",
@@ -78,9 +78,9 @@
       "sha256": "f099a4c84dbda3a137b7e95962f48104c37d0c64e7b22a5889075990e1d23a5c"
     },
     {
-      "path": "data/metadata/croissant_draft.json",
-      "bytes": 1508,
-      "sha256": "fdc0eff07d8b3e4cde2d1f38915bc99b059ed26b74791569959cff9abaee584d"
+      "path": "data/metadata/croissant.json",
+      "bytes": 21122,
+      "sha256": "a5934c6c2e5ea223f7168e9c1a48862d9a822422f52a9ebfd8b050baf16fc303"
     },
     {
       "path": "data/reference/paper_model_results_expected.json",
@@ -114,8 +114,8 @@
     },
     {
       "path": "docs/release_manifest.md",
-      "bytes": 816,
-      "sha256": "32fa37d3e0ace35f2c4ea6c69d9fc74f8f1f70ab572c417be76ef5ac96aef981"
+      "bytes": 945,
+      "sha256": "538e86dcfc9c8241ae8fb2f0e85308ee3c0b99507033cb1f0a4f2f4e18f78b40"
     },
     {
       "path": "outputs/.gitkeep",

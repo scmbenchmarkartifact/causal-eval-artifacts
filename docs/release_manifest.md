@@ -25,6 +25,8 @@ The release excludes:
 
 The official benchmark runtime files are stored in `data/benchmarks/`.
 `data/samples/` contains a small sample for smoke tests only.
+`data/metadata/croissant.json` contains the Croissant core and Responsible AI
+metadata to upload with the OpenReview submission.
 
 ## Anonymization
 
