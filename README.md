@@ -42,6 +42,19 @@ pip install -e .
 The core scoring path depends only on Python 3.10+, `ruamel.yaml`, and
 `PyYAML`.
 
+## Research Code Checklist
+
+This artifact follows the NeurIPS/Papers with Code research-code checklist in
+the form appropriate for a benchmark release:
+
+| Checklist item | Status in this artifact |
+| --- | --- |
+| Dependencies | Declared in `pyproject.toml`; install command above. |
+| Training code | Not applicable: this artifact releases a benchmark, scoring code, and frozen result records, not a trained model. |
+| Evaluation code | `scripts/export_prompts.py`, `scripts/score_predictions.py`, `scripts/reproduce_report.py`, and `scripts/validate_paper_results.py`. |
+| Pre-trained models | Not applicable: no learned model weights are introduced by the submission. |
+| Results and commands | Representative aggregate results and exact validation commands are below. |
+
 ## Smoke Test
 
 ```bash
@@ -90,6 +103,18 @@ The scorer writes:
 The paper-table validator is replay-only: it reads stored `evaluation` records
 inside the frozen runtime YAML files and compares aggregate values to
 `data/reference/paper_model_results_expected.json`.
+
+Representative frozen paper results from `topline_results_main` are:
+
+| System | Ord-Full HE | Block HE | Hid-Full HE |
+| --- | ---: | ---: | ---: |
+| GPT-5.4 | 0.344 | 0.410 | 0.292 |
+| Opus 4.6 | 0.292 | 0.240 | 0.164 |
+| bnlearn+DSL | 0.596 | 0.620 | 0.620 |
+| symbolic exact-search | 0.596 | 0.650 | 0.536 |
+
+`HE` denotes held-out exact accuracy. The complete expected aggregate tables
+are stored in `data/reference/paper_model_results_expected.json`.
 
 ```bash
 python scripts/validate_paper_results.py \
