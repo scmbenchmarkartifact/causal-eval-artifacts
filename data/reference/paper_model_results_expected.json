@@ -1,0 +1,1115 @@
+{
+  "metadata": {
+    "source": "paper_generated_tex_tables",
+    "source_detail": "Parsed from paper generated TeX table files."
+  },
+  "tables": {
+    "diagnostic_decomposition_main_panel_a": [
+      {
+        "alt_scm_joint": "0.840",
+        "alt_train_exact": "0.840",
+        "experiment_witness": "0.840",
+        "joint_leave_model_out": "0.833",
+        "paired_train_correct": "0.620",
+        "setting": "Alt-Hid",
+        "system": "GPT-5.4"
+      },
+      {
+        "alt_scm_joint": "0.700",
+        "alt_train_exact": "0.700",
+        "experiment_witness": "0.700",
+        "joint_leave_model_out": "0.745",
+        "paired_train_correct": "0.280",
+        "setting": "Alt-Hid",
+        "system": "Opus 4.6"
+      },
+      {
+        "alt_scm_joint": "0.670",
+        "alt_train_exact": "0.680",
+        "experiment_witness": "0.670",
+        "joint_leave_model_out": "0.704",
+        "paired_train_correct": "0.210",
+        "setting": "Alt-Hid",
+        "system": "DeepSeek4Pro"
+      },
+      {
+        "alt_scm_joint": "0.950",
+        "alt_train_exact": "0.970",
+        "experiment_witness": "0.950",
+        "joint_leave_model_out": "0.926",
+        "paired_train_correct": "0.110",
+        "setting": "Alt-Hid",
+        "system": "Gemini3.1"
+      },
+      {
+        "alt_scm_joint": "0.730",
+        "alt_train_exact": "0.730",
+        "experiment_witness": "0.730",
+        "joint_leave_model_out": "0.757",
+        "paired_train_correct": "0.170",
+        "setting": "Alt-Hid",
+        "system": "Grok 4.20"
+      },
+      {
+        "alt_scm_joint": "0.870",
+        "alt_train_exact": "0.870",
+        "experiment_witness": "0.870",
+        "joint_leave_model_out": "0.922",
+        "paired_train_correct": "0.150",
+        "setting": "Alt-Hid",
+        "system": "Grok 4"
+      },
+      {
+        "alt_scm_joint": "0.360",
+        "alt_train_exact": "0.390",
+        "experiment_witness": "0.360",
+        "joint_leave_model_out": "0.408",
+        "paired_train_correct": "0.050",
+        "setting": "Alt-Hid",
+        "system": "Grok 4.3"
+      },
+      {
+        "alt_scm_joint": "0.180",
+        "alt_train_exact": "0.200",
+        "experiment_witness": "0.180",
+        "joint_leave_model_out": "0.211",
+        "paired_train_correct": "0.000",
+        "setting": "Alt-Hid",
+        "system": "KimiK2t"
+      },
+      {
+        "alt_scm_joint": "0.030",
+        "alt_train_exact": "0.030",
+        "experiment_witness": "0.030",
+        "joint_leave_model_out": "0.042",
+        "paired_train_correct": "0.000",
+        "setting": "Alt-Hid",
+        "system": "DSReasoner"
+      },
+      {
+        "alt_scm_joint": "0.960",
+        "alt_train_exact": "0.960",
+        "experiment_witness": "0.960",
+        "joint_leave_model_out": "0.963",
+        "paired_train_correct": "0.580",
+        "setting": "Alt-Ord",
+        "system": "GPT-5.4"
+      },
+      {
+        "alt_scm_joint": "0.730",
+        "alt_train_exact": "0.730",
+        "experiment_witness": "0.730",
+        "joint_leave_model_out": "0.765",
+        "paired_train_correct": "0.580",
+        "setting": "Alt-Ord",
+        "system": "Opus 4.6"
+      },
+      {
+        "alt_scm_joint": "0.800",
+        "alt_train_exact": "0.800",
+        "experiment_witness": "0.800",
+        "joint_leave_model_out": "0.789",
+        "paired_train_correct": "0.280",
+        "setting": "Alt-Ord",
+        "system": "DeepSeek4Pro"
+      },
+      {
+        "alt_scm_joint": "0.920",
+        "alt_train_exact": "0.920",
+        "experiment_witness": "0.920",
+        "joint_leave_model_out": "0.941",
+        "paired_train_correct": "0.370",
+        "setting": "Alt-Ord",
+        "system": "Gemini3.1"
+      },
+      {
+        "alt_scm_joint": "0.800",
+        "alt_train_exact": "0.800",
+        "experiment_witness": "0.800",
+        "joint_leave_model_out": "0.800",
+        "paired_train_correct": "0.300",
+        "setting": "Alt-Ord",
+        "system": "Grok 4.20"
+      },
+      {
+        "alt_scm_joint": "0.890",
+        "alt_train_exact": "0.900",
+        "experiment_witness": "0.890",
+        "joint_leave_model_out": "0.922",
+        "paired_train_correct": "0.310",
+        "setting": "Alt-Ord",
+        "system": "Grok 4"
+      },
+      {
+        "alt_scm_joint": "0.420",
+        "alt_train_exact": "0.430",
+        "experiment_witness": "0.420",
+        "joint_leave_model_out": "0.479",
+        "paired_train_correct": "0.070",
+        "setting": "Alt-Ord",
+        "system": "Grok 4.3"
+      },
+      {
+        "alt_scm_joint": "0.240",
+        "alt_train_exact": "0.310",
+        "experiment_witness": "0.240",
+        "joint_leave_model_out": "0.296",
+        "paired_train_correct": "0.010",
+        "setting": "Alt-Ord",
+        "system": "KimiK2t"
+      },
+      {
+        "alt_scm_joint": "0.030",
+        "alt_train_exact": "0.050",
+        "experiment_witness": "0.030",
+        "joint_leave_model_out": "0.042",
+        "paired_train_correct": "0.010",
+        "setting": "Alt-Ord",
+        "system": "DSReasoner"
+      }
+    ],
+    "diagnostic_decomposition_main_panel_b": [
+      {
+        "heldout_exact": "0.020",
+        "heldout_exact_given_root_exact": "0.083",
+        "heldout_world": "0.120",
+        "heldout_world_given_root_exact": "0.307",
+        "root_exact": "0.240",
+        "system": "GPT-5.4",
+        "train_exact": "0.080",
+        "train_exact_given_root_exact": "0.333"
+      },
+      {
+        "heldout_exact": "0.000",
+        "heldout_exact_given_root_exact": "0.000",
+        "heldout_world": "0.138",
+        "heldout_world_given_root_exact": "0.260",
+        "root_exact": "0.240",
+        "system": "Opus 4.6",
+        "train_exact": "0.020",
+        "train_exact_given_root_exact": "0.083"
+      },
+      {
+        "heldout_exact": "0.010",
+        "heldout_exact_given_root_exact": "0.028",
+        "heldout_world": "0.081",
+        "heldout_world_given_root_exact": "0.195",
+        "root_exact": "0.360",
+        "system": "DeepSeek4Pro",
+        "train_exact": "0.020",
+        "train_exact_given_root_exact": "0.056"
+      },
+      {
+        "heldout_exact": "0.030",
+        "heldout_exact_given_root_exact": "0.088",
+        "heldout_world": "0.116",
+        "heldout_world_given_root_exact": "0.290",
+        "root_exact": "0.340",
+        "system": "Gemini3.1",
+        "train_exact": "0.040",
+        "train_exact_given_root_exact": "0.118"
+      },
+      {
+        "heldout_exact": "0.050",
+        "heldout_exact_given_root_exact": "0.128",
+        "heldout_world": "0.143",
+        "heldout_world_given_root_exact": "0.215",
+        "root_exact": "0.390",
+        "system": "Grok 4.20",
+        "train_exact": "0.060",
+        "train_exact_given_root_exact": "0.128"
+      },
+      {
+        "heldout_exact": "0.030",
+        "heldout_exact_given_root_exact": "0.100",
+        "heldout_world": "0.104",
+        "heldout_world_given_root_exact": "0.192",
+        "root_exact": "0.300",
+        "system": "Grok 4",
+        "train_exact": "0.050",
+        "train_exact_given_root_exact": "0.133"
+      },
+      {
+        "heldout_exact": "0.010",
+        "heldout_exact_given_root_exact": "0.091",
+        "heldout_world": "0.046",
+        "heldout_world_given_root_exact": "0.148",
+        "root_exact": "0.110",
+        "system": "Grok 4.3",
+        "train_exact": "0.010",
+        "train_exact_given_root_exact": "0.091"
+      },
+      {
+        "heldout_exact": "0.000",
+        "heldout_exact_given_root_exact": "0.000",
+        "heldout_world": "0.014",
+        "heldout_world_given_root_exact": "0.062",
+        "root_exact": "0.060",
+        "system": "KimiK2t",
+        "train_exact": "0.000",
+        "train_exact_given_root_exact": "0.000"
+      },
+      {
+        "heldout_exact": "0.000",
+        "heldout_exact_given_root_exact": "*",
+        "heldout_world": "0.001",
+        "heldout_world_given_root_exact": "*",
+        "root_exact": "0.040",
+        "system": "DSReasoner",
+        "train_exact": "0.000",
+        "train_exact_given_root_exact": "*"
+      },
+      {
+        "heldout_exact": "0.530",
+        "heldout_exact_given_root_exact": "0.658",
+        "heldout_world": "0.867",
+        "heldout_world_given_root_exact": "0.907",
+        "root_exact": "0.790",
+        "system": "bnlearn+DSL",
+        "train_exact": "0.900",
+        "train_exact_given_root_exact": "1.000"
+      },
+      {
+        "heldout_exact": "0.560",
+        "heldout_exact_given_root_exact": "0.683",
+        "heldout_world": "0.880",
+        "heldout_world_given_root_exact": "0.931",
+        "root_exact": "0.820",
+        "system": "symbolic exact-search",
+        "train_exact": "0.950",
+        "train_exact_given_root_exact": "1.000"
+      }
+    ],
+    "identifiability_audit_performance": [
+      {
+        "heldout_exact": "0.530",
+        "heldout_world": "0.880",
+        "heldout_world_given_train_exact": "0.958",
+        "model": "GPT-5.4",
+        "n": "100",
+        "setting": "Ord-Ext",
+        "train_exact": "0.630",
+        "train_world": "0.929",
+        "valid": "1.000"
+      },
+      {
+        "heldout_exact": "0.340",
+        "heldout_world": "0.783",
+        "heldout_world_given_train_exact": "0.977",
+        "model": "Opus 4.6",
+        "n": "100",
+        "setting": "Ord-Ext",
+        "train_exact": "0.380",
+        "train_world": "0.824",
+        "valid": "0.980"
+      },
+      {
+        "heldout_exact": "0.100",
+        "heldout_world": "0.465",
+        "heldout_world_given_train_exact": "0.938",
+        "model": "DeepSeek4Pro",
+        "n": "100",
+        "setting": "Ord-Ext",
+        "train_exact": "0.140",
+        "train_world": "0.489",
+        "valid": "1.000"
+      },
+      {
+        "heldout_exact": "0.290",
+        "heldout_world": "0.709",
+        "heldout_world_given_train_exact": "0.992",
+        "model": "Gemini3.1",
+        "n": "100",
+        "setting": "Ord-Ext",
+        "train_exact": "0.300",
+        "train_world": "0.715",
+        "valid": "1.000"
+      },
+      {
+        "heldout_exact": "0.210",
+        "heldout_world": "0.571",
+        "heldout_world_given_train_exact": "0.967",
+        "model": "Grok 4.20",
+        "n": "100",
+        "setting": "Ord-Ext",
+        "train_exact": "0.230",
+        "train_world": "0.575",
+        "valid": "1.000"
+      },
+      {
+        "heldout_exact": "0.120",
+        "heldout_world": "0.460",
+        "heldout_world_given_train_exact": "1.000",
+        "model": "Grok 4",
+        "n": "100",
+        "setting": "Ord-Ext",
+        "train_exact": "0.120",
+        "train_world": "0.463",
+        "valid": "0.990"
+      },
+      {
+        "heldout_exact": "0.020",
+        "heldout_world": "0.146",
+        "heldout_world_given_train_exact": "*",
+        "model": "Grok 4.3",
+        "n": "100",
+        "setting": "Ord-Ext",
+        "train_exact": "0.020",
+        "train_world": "0.151",
+        "valid": "0.530"
+      },
+      {
+        "heldout_exact": "0.020",
+        "heldout_world": "0.066",
+        "heldout_world_given_train_exact": "*",
+        "model": "KimiK2t",
+        "n": "100",
+        "setting": "Ord-Ext",
+        "train_exact": "0.020",
+        "train_world": "0.085",
+        "valid": "0.950"
+      },
+      {
+        "heldout_exact": "0.020",
+        "heldout_world": "0.100",
+        "heldout_world_given_train_exact": "*",
+        "model": "DSReasoner",
+        "n": "100",
+        "setting": "Ord-Ext",
+        "train_exact": "0.020",
+        "train_world": "0.086",
+        "valid": "1.000"
+      },
+      {
+        "heldout_exact": "0.330",
+        "heldout_world": "0.783",
+        "heldout_world_given_train_exact": "0.962",
+        "model": "GPT-5.4",
+        "n": "100",
+        "setting": "Hid-Ext",
+        "train_exact": "0.430",
+        "train_world": "0.824",
+        "valid": "0.990"
+      },
+      {
+        "heldout_exact": "0.230",
+        "heldout_world": "0.670",
+        "heldout_world_given_train_exact": "0.972",
+        "model": "Opus 4.6",
+        "n": "100",
+        "setting": "Hid-Ext",
+        "train_exact": "0.270",
+        "train_world": "0.729",
+        "valid": "0.950"
+      },
+      {
+        "heldout_exact": "0.140",
+        "heldout_world": "0.343",
+        "heldout_world_given_train_exact": "0.941",
+        "model": "DeepSeek4Pro",
+        "n": "100",
+        "setting": "Hid-Ext",
+        "train_exact": "0.170",
+        "train_world": "0.369",
+        "valid": "1.000"
+      },
+      {
+        "heldout_exact": "0.160",
+        "heldout_world": "0.507",
+        "heldout_world_given_train_exact": "0.979",
+        "model": "Gemini3.1",
+        "n": "100",
+        "setting": "Hid-Ext",
+        "train_exact": "0.180",
+        "train_world": "0.545",
+        "valid": "1.000"
+      },
+      {
+        "heldout_exact": "0.110",
+        "heldout_world": "0.466",
+        "heldout_world_given_train_exact": "0.971",
+        "model": "Grok 4.20",
+        "n": "100",
+        "setting": "Hid-Ext",
+        "train_exact": "0.130",
+        "train_world": "0.499",
+        "valid": "0.970"
+      },
+      {
+        "heldout_exact": "0.080",
+        "heldout_world": "0.335",
+        "heldout_world_given_train_exact": "0.972",
+        "model": "Grok 4",
+        "n": "100",
+        "setting": "Hid-Ext",
+        "train_exact": "0.090",
+        "train_world": "0.387",
+        "valid": "0.990"
+      },
+      {
+        "heldout_exact": "0.030",
+        "heldout_world": "0.127",
+        "heldout_world_given_train_exact": "*",
+        "model": "Grok 4.3",
+        "n": "100",
+        "setting": "Hid-Ext",
+        "train_exact": "0.030",
+        "train_world": "0.170",
+        "valid": "0.730"
+      },
+      {
+        "heldout_exact": "0.000",
+        "heldout_world": "0.032",
+        "heldout_world_given_train_exact": "\u2013",
+        "model": "KimiK2t",
+        "n": "100",
+        "setting": "Hid-Ext",
+        "train_exact": "0.000",
+        "train_world": "0.047",
+        "valid": "0.970"
+      },
+      {
+        "heldout_exact": "0.000",
+        "heldout_world": "0.034",
+        "heldout_world_given_train_exact": "\u2013",
+        "model": "DSReasoner",
+        "n": "100",
+        "setting": "Hid-Ext",
+        "train_exact": "0.000",
+        "train_world": "0.055",
+        "valid": "0.990"
+      },
+      {
+        "heldout_exact": "0.530",
+        "heldout_world": "0.848",
+        "heldout_world_given_train_exact": "1.000",
+        "model": "GPT-5.4",
+        "n": "100",
+        "setting": "Ord-CEx",
+        "train_exact": "0.530",
+        "train_world": "0.873",
+        "valid": "1.000"
+      },
+      {
+        "heldout_exact": "0.460",
+        "heldout_world": "0.820",
+        "heldout_world_given_train_exact": "1.000",
+        "model": "Opus 4.6",
+        "n": "100",
+        "setting": "Ord-CEx",
+        "train_exact": "0.460",
+        "train_world": "0.834",
+        "valid": "0.990"
+      },
+      {
+        "heldout_exact": "0.210",
+        "heldout_world": "0.424",
+        "heldout_world_given_train_exact": "1.000",
+        "model": "DeepSeek4Pro",
+        "n": "100",
+        "setting": "Ord-CEx",
+        "train_exact": "0.210",
+        "train_world": "0.413",
+        "valid": "1.000"
+      },
+      {
+        "heldout_exact": "0.300",
+        "heldout_world": "0.705",
+        "heldout_world_given_train_exact": "1.000",
+        "model": "Gemini3.1",
+        "n": "100",
+        "setting": "Ord-CEx",
+        "train_exact": "0.300",
+        "train_world": "0.705",
+        "valid": "1.000"
+      },
+      {
+        "heldout_exact": "0.230",
+        "heldout_world": "0.566",
+        "heldout_world_given_train_exact": "1.000",
+        "model": "Grok 4.20",
+        "n": "100",
+        "setting": "Ord-CEx",
+        "train_exact": "0.230",
+        "train_world": "0.596",
+        "valid": "1.000"
+      },
+      {
+        "heldout_exact": "0.100",
+        "heldout_world": "0.474",
+        "heldout_world_given_train_exact": "1.000",
+        "model": "Grok 4",
+        "n": "100",
+        "setting": "Ord-CEx",
+        "train_exact": "0.100",
+        "train_world": "0.473",
+        "valid": "0.990"
+      },
+      {
+        "heldout_exact": "0.020",
+        "heldout_world": "0.119",
+        "heldout_world_given_train_exact": "*",
+        "model": "Grok 4.3",
+        "n": "100",
+        "setting": "Ord-CEx",
+        "train_exact": "0.020",
+        "train_world": "0.123",
+        "valid": "0.930"
+      },
+      {
+        "heldout_exact": "0.000",
+        "heldout_world": "0.028",
+        "heldout_world_given_train_exact": "\u2013",
+        "model": "KimiK2t",
+        "n": "100",
+        "setting": "Ord-CEx",
+        "train_exact": "0.000",
+        "train_world": "0.030",
+        "valid": "0.960"
+      },
+      {
+        "heldout_exact": "0.060",
+        "heldout_world": "0.175",
+        "heldout_world_given_train_exact": "1.000",
+        "model": "DSReasoner",
+        "n": "100",
+        "setting": "Ord-CEx",
+        "train_exact": "0.060",
+        "train_world": "0.176",
+        "valid": "1.000"
+      },
+      {
+        "heldout_exact": "0.434",
+        "heldout_world": "0.803",
+        "heldout_world_given_train_exact": "1.000",
+        "model": "GPT-5.4",
+        "n": "99",
+        "setting": "Hid-CEx",
+        "train_exact": "0.434",
+        "train_world": "0.836",
+        "valid": "1.000"
+      },
+      {
+        "heldout_exact": "0.300",
+        "heldout_world": "0.694",
+        "heldout_world_given_train_exact": "1.000",
+        "model": "Opus 4.6",
+        "n": "100",
+        "setting": "Hid-CEx",
+        "train_exact": "0.300",
+        "train_world": "0.715",
+        "valid": "0.950"
+      },
+      {
+        "heldout_exact": "0.120",
+        "heldout_world": "0.371",
+        "heldout_world_given_train_exact": "1.000",
+        "model": "DeepSeek4Pro",
+        "n": "100",
+        "setting": "Hid-CEx",
+        "train_exact": "0.120",
+        "train_world": "0.387",
+        "valid": "1.000"
+      },
+      {
+        "heldout_exact": "0.210",
+        "heldout_world": "0.554",
+        "heldout_world_given_train_exact": "1.000",
+        "model": "Gemini3.1",
+        "n": "100",
+        "setting": "Hid-CEx",
+        "train_exact": "0.210",
+        "train_world": "0.561",
+        "valid": "1.000"
+      },
+      {
+        "heldout_exact": "0.170",
+        "heldout_world": "0.472",
+        "heldout_world_given_train_exact": "1.000",
+        "model": "Grok 4.20",
+        "n": "100",
+        "setting": "Hid-CEx",
+        "train_exact": "0.170",
+        "train_world": "0.508",
+        "valid": "1.000"
+      },
+      {
+        "heldout_exact": "0.080",
+        "heldout_world": "0.374",
+        "heldout_world_given_train_exact": "1.000",
+        "model": "Grok 4",
+        "n": "100",
+        "setting": "Hid-CEx",
+        "train_exact": "0.080",
+        "train_world": "0.394",
+        "valid": "0.930"
+      },
+      {
+        "heldout_exact": "0.020",
+        "heldout_world": "0.071",
+        "heldout_world_given_train_exact": "*",
+        "model": "Grok 4.3",
+        "n": "100",
+        "setting": "Hid-CEx",
+        "train_exact": "0.020",
+        "train_world": "0.064",
+        "valid": "0.300"
+      },
+      {
+        "heldout_exact": "0.000",
+        "heldout_world": "0.028",
+        "heldout_world_given_train_exact": "\u2013",
+        "model": "KimiK2t",
+        "n": "100",
+        "setting": "Hid-CEx",
+        "train_exact": "0.000",
+        "train_world": "0.035",
+        "valid": "0.920"
+      },
+      {
+        "heldout_exact": "0.000",
+        "heldout_world": "0.051",
+        "heldout_world_given_train_exact": "\u2013",
+        "model": "DSReasoner",
+        "n": "100",
+        "setting": "Hid-CEx",
+        "train_exact": "0.000",
+        "train_world": "0.054",
+        "valid": "0.990"
+      }
+    ],
+    "information_ladder_common_pool": [
+      {
+        "Block": "0.600",
+        "Hid-CEx": "0.434",
+        "Hid-Ext": "0.430",
+        "Hid-Match": "0.620",
+        "Hid-Roots": "0.080",
+        "Ord-CEx": "0.530",
+        "Ord-Ext": "0.630",
+        "Ord-Match": "0.580",
+        "model": "GPT-5.4"
+      },
+      {
+        "Block": "0.420",
+        "Hid-CEx": "0.300",
+        "Hid-Ext": "0.270",
+        "Hid-Match": "0.280",
+        "Hid-Roots": "0.020",
+        "Ord-CEx": "0.460",
+        "Ord-Ext": "0.380",
+        "Ord-Match": "0.580",
+        "model": "Opus 4.6"
+      },
+      {
+        "Block": "0.350",
+        "Hid-CEx": "0.120",
+        "Hid-Ext": "0.170",
+        "Hid-Match": "0.210",
+        "Hid-Roots": "0.020",
+        "Ord-CEx": "0.210",
+        "Ord-Ext": "0.140",
+        "Ord-Match": "0.280",
+        "model": "DeepSeek4Pro"
+      },
+      {
+        "Block": "0.280",
+        "Hid-CEx": "0.210",
+        "Hid-Ext": "0.180",
+        "Hid-Match": "0.110",
+        "Hid-Roots": "0.040",
+        "Ord-CEx": "0.300",
+        "Ord-Ext": "0.300",
+        "Ord-Match": "0.370",
+        "model": "Gemini3.1"
+      },
+      {
+        "Block": "0.150",
+        "Hid-CEx": "0.170",
+        "Hid-Ext": "0.130",
+        "Hid-Match": "0.170",
+        "Hid-Roots": "0.060",
+        "Ord-CEx": "0.230",
+        "Ord-Ext": "0.230",
+        "Ord-Match": "0.300",
+        "model": "Grok 4.20"
+      },
+      {
+        "Block": "0.240",
+        "Hid-CEx": "0.080",
+        "Hid-Ext": "0.090",
+        "Hid-Match": "0.150",
+        "Hid-Roots": "0.050",
+        "Ord-CEx": "0.100",
+        "Ord-Ext": "0.120",
+        "Ord-Match": "0.310",
+        "model": "Grok 4"
+      },
+      {
+        "Block": "0.100",
+        "Hid-CEx": "0.020",
+        "Hid-Ext": "0.030",
+        "Hid-Match": "0.050",
+        "Hid-Roots": "0.010",
+        "Ord-CEx": "0.020",
+        "Ord-Ext": "0.020",
+        "Ord-Match": "0.070",
+        "model": "Grok 4.3"
+      },
+      {
+        "Block": "0.010",
+        "Hid-CEx": "0.000",
+        "Hid-Ext": "0.000",
+        "Hid-Match": "0.000",
+        "Hid-Roots": "0.000",
+        "Ord-CEx": "0.000",
+        "Ord-Ext": "0.020",
+        "Ord-Match": "0.010",
+        "model": "KimiK2t"
+      },
+      {
+        "Block": "0.010",
+        "Hid-CEx": "0.000",
+        "Hid-Ext": "0.000",
+        "Hid-Match": "0.000",
+        "Hid-Roots": "0.000",
+        "Ord-CEx": "0.060",
+        "Ord-Ext": "0.020",
+        "Ord-Match": "0.010",
+        "model": "DSReasoner"
+      }
+    ],
+    "topline_results_main": [
+      {
+        "heldout_exact": "0.344",
+        "heldout_exact_given_train_exact": "0.562",
+        "heldout_world": "0.731",
+        "heldout_world_given_train_exact": "0.849",
+        "setting": "Ord-Full",
+        "system": "GPT-5.4",
+        "train_exact": "0.612",
+        "valid": "1.000"
+      },
+      {
+        "heldout_exact": "0.292",
+        "heldout_exact_given_train_exact": "0.456",
+        "heldout_world": "0.725",
+        "heldout_world_given_train_exact": "0.816",
+        "setting": "Ord-Full",
+        "system": "Opus 4.6",
+        "train_exact": "0.640",
+        "valid": "0.980"
+      },
+      {
+        "heldout_exact": "0.152",
+        "heldout_exact_given_train_exact": "0.422",
+        "heldout_world": "0.518",
+        "heldout_world_given_train_exact": "0.783",
+        "setting": "Ord-Full",
+        "system": "DeepSeek4Pro",
+        "train_exact": "0.360",
+        "valid": "1.000"
+      },
+      {
+        "heldout_exact": "0.260",
+        "heldout_exact_given_train_exact": "0.663",
+        "heldout_world": "0.640",
+        "heldout_world_given_train_exact": "0.885",
+        "setting": "Ord-Full",
+        "system": "Gemini3.1",
+        "train_exact": "0.392",
+        "valid": "1.000"
+      },
+      {
+        "heldout_exact": "0.164",
+        "heldout_exact_given_train_exact": "0.494",
+        "heldout_world": "0.532",
+        "heldout_world_given_train_exact": "0.825",
+        "setting": "Ord-Full",
+        "system": "Grok 4.20",
+        "train_exact": "0.332",
+        "valid": "1.000"
+      },
+      {
+        "heldout_exact": "0.148",
+        "heldout_exact_given_train_exact": "0.500",
+        "heldout_world": "0.519",
+        "heldout_world_given_train_exact": "0.818",
+        "setting": "Ord-Full",
+        "system": "Grok 4",
+        "train_exact": "0.296",
+        "valid": "0.980"
+      },
+      {
+        "heldout_exact": "0.060",
+        "heldout_exact_given_train_exact": "0.556",
+        "heldout_world": "0.317",
+        "heldout_world_given_train_exact": "0.889",
+        "setting": "Ord-Full",
+        "system": "Grok 4.3",
+        "train_exact": "0.108",
+        "valid": "0.512"
+      },
+      {
+        "heldout_exact": "0.024",
+        "heldout_exact_given_train_exact": "0.286",
+        "heldout_world": "0.164",
+        "heldout_world_given_train_exact": "0.786",
+        "setting": "Ord-Full",
+        "system": "KimiK2t",
+        "train_exact": "0.084",
+        "valid": "0.972"
+      },
+      {
+        "heldout_exact": "0.036",
+        "heldout_exact_given_train_exact": "0.750",
+        "heldout_world": "0.116",
+        "heldout_world_given_train_exact": "0.917",
+        "setting": "Ord-Full",
+        "system": "DSReasoner",
+        "train_exact": "0.048",
+        "valid": "0.988"
+      },
+      {
+        "heldout_exact": "0.596",
+        "heldout_exact_given_train_exact": "0.598",
+        "heldout_world": "0.880",
+        "heldout_world_given_train_exact": "0.880",
+        "setting": "Ord-Full",
+        "system": "bnlearn+DSL",
+        "train_exact": "0.996",
+        "valid": "0.996"
+      },
+      {
+        "heldout_exact": "0.596",
+        "heldout_exact_given_train_exact": "0.608",
+        "heldout_world": "0.884",
+        "heldout_world_given_train_exact": "0.884",
+        "setting": "Ord-Full",
+        "system": "symbolic exact-search",
+        "train_exact": "0.980",
+        "valid": "0.980"
+      },
+      {
+        "heldout_exact": "0.410",
+        "heldout_exact_given_train_exact": "0.683",
+        "heldout_world": "0.774",
+        "heldout_world_given_train_exact": "0.912",
+        "setting": "Block",
+        "system": "GPT-5.4",
+        "train_exact": "0.600",
+        "valid": "1.000"
+      },
+      {
+        "heldout_exact": "0.240",
+        "heldout_exact_given_train_exact": "0.571",
+        "heldout_world": "0.671",
+        "heldout_world_given_train_exact": "0.884",
+        "setting": "Block",
+        "system": "Opus 4.6",
+        "train_exact": "0.420",
+        "valid": "0.950"
+      },
+      {
+        "heldout_exact": "0.170",
+        "heldout_exact_given_train_exact": "0.486",
+        "heldout_world": "0.410",
+        "heldout_world_given_train_exact": "0.861",
+        "setting": "Block",
+        "system": "DeepSeek4Pro",
+        "train_exact": "0.350",
+        "valid": "1.000"
+      },
+      {
+        "heldout_exact": "0.220",
+        "heldout_exact_given_train_exact": "0.786",
+        "heldout_world": "0.559",
+        "heldout_world_given_train_exact": "0.942",
+        "setting": "Block",
+        "system": "Gemini3.1",
+        "train_exact": "0.280",
+        "valid": "1.000"
+      },
+      {
+        "heldout_exact": "0.130",
+        "heldout_exact_given_train_exact": "0.867",
+        "heldout_world": "0.455",
+        "heldout_world_given_train_exact": "0.967",
+        "setting": "Block",
+        "system": "Grok 4.20",
+        "train_exact": "0.150",
+        "valid": "1.000"
+      },
+      {
+        "heldout_exact": "0.070",
+        "heldout_exact_given_train_exact": "0.292",
+        "heldout_world": "0.437",
+        "heldout_world_given_train_exact": "0.745",
+        "setting": "Block",
+        "system": "Grok 4",
+        "train_exact": "0.240",
+        "valid": "0.990"
+      },
+      {
+        "heldout_exact": "0.050",
+        "heldout_exact_given_train_exact": "0.500",
+        "heldout_world": "0.217",
+        "heldout_world_given_train_exact": "0.863",
+        "setting": "Block",
+        "system": "Grok 4.3",
+        "train_exact": "0.100",
+        "valid": "0.730"
+      },
+      {
+        "heldout_exact": "0.010",
+        "heldout_exact_given_train_exact": "*",
+        "heldout_world": "0.081",
+        "heldout_world_given_train_exact": "*",
+        "setting": "Block",
+        "system": "KimiK2t",
+        "train_exact": "0.010",
+        "valid": "0.960"
+      },
+      {
+        "heldout_exact": "0.010",
+        "heldout_exact_given_train_exact": "*",
+        "heldout_world": "0.090",
+        "heldout_world_given_train_exact": "*",
+        "setting": "Block",
+        "system": "DSReasoner",
+        "train_exact": "0.010",
+        "valid": "0.990"
+      },
+      {
+        "heldout_exact": "0.620",
+        "heldout_exact_given_train_exact": "0.620",
+        "heldout_world": "0.899",
+        "heldout_world_given_train_exact": "0.899",
+        "setting": "Block",
+        "system": "bnlearn+DSL",
+        "train_exact": "1.000",
+        "valid": "1.000"
+      },
+      {
+        "heldout_exact": "0.650",
+        "heldout_exact_given_train_exact": "0.677",
+        "heldout_world": "0.927",
+        "heldout_world_given_train_exact": "0.927",
+        "setting": "Block",
+        "system": "symbolic exact-search",
+        "train_exact": "0.960",
+        "valid": "0.960"
+      },
+      {
+        "heldout_exact": "0.292",
+        "heldout_exact_given_train_exact": "0.465",
+        "heldout_world": "0.697",
+        "heldout_world_given_train_exact": "0.843",
+        "setting": "Hid-Full",
+        "system": "GPT-5.4",
+        "train_exact": "0.628",
+        "valid": "1.000"
+      },
+      {
+        "heldout_exact": "0.164",
+        "heldout_exact_given_train_exact": "0.394",
+        "heldout_world": "0.595",
+        "heldout_world_given_train_exact": "0.827",
+        "setting": "Hid-Full",
+        "system": "Opus 4.6",
+        "train_exact": "0.416",
+        "valid": "0.972"
+      },
+      {
+        "heldout_exact": "0.096",
+        "heldout_exact_given_train_exact": "0.324",
+        "heldout_world": "0.375",
+        "heldout_world_given_train_exact": "0.772",
+        "setting": "Hid-Full",
+        "system": "DeepSeek4Pro",
+        "train_exact": "0.296",
+        "valid": "0.980"
+      },
+      {
+        "heldout_exact": "0.120",
+        "heldout_exact_given_train_exact": "0.652",
+        "heldout_world": "0.431",
+        "heldout_world_given_train_exact": "0.891",
+        "setting": "Hid-Full",
+        "system": "Gemini3.1",
+        "train_exact": "0.184",
+        "valid": "1.000"
+      },
+      {
+        "heldout_exact": "0.104",
+        "heldout_exact_given_train_exact": "0.456",
+        "heldout_world": "0.422",
+        "heldout_world_given_train_exact": "0.838",
+        "setting": "Hid-Full",
+        "system": "Grok 4.20",
+        "train_exact": "0.228",
+        "valid": "0.984"
+      },
+      {
+        "heldout_exact": "0.084",
+        "heldout_exact_given_train_exact": "0.404",
+        "heldout_world": "0.370",
+        "heldout_world_given_train_exact": "0.815",
+        "setting": "Hid-Full",
+        "system": "Grok 4",
+        "train_exact": "0.208",
+        "valid": "0.976"
+      },
+      {
+        "heldout_exact": "0.028",
+        "heldout_exact_given_train_exact": "0.467",
+        "heldout_world": "0.255",
+        "heldout_world_given_train_exact": "0.842",
+        "setting": "Hid-Full",
+        "system": "Grok 4.3",
+        "train_exact": "0.060",
+        "valid": "0.372"
+      },
+      {
+        "heldout_exact": "0.000",
+        "heldout_exact_given_train_exact": "*",
+        "heldout_world": "0.049",
+        "heldout_world_given_train_exact": "*",
+        "setting": "Hid-Full",
+        "system": "KimiK2t",
+        "train_exact": "0.008",
+        "valid": "0.984"
+      },
+      {
+        "heldout_exact": "0.000",
+        "heldout_exact_given_train_exact": "\u2013",
+        "heldout_world": "0.027",
+        "heldout_world_given_train_exact": "\u2013",
+        "setting": "Hid-Full",
+        "system": "DSReasoner",
+        "train_exact": "0.000",
+        "valid": "0.992"
+      },
+      {
+        "heldout_exact": "0.620",
+        "heldout_exact_given_train_exact": "0.623",
+        "heldout_world": "0.896",
+        "heldout_world_given_train_exact": "0.896",
+        "setting": "Hid-Full",
+        "system": "bnlearn+DSL",
+        "train_exact": "0.996",
+        "valid": "0.996"
+      },
+      {
+        "heldout_exact": "0.536",
+        "heldout_exact_given_train_exact": "0.596",
+        "heldout_world": "0.892",
+        "heldout_world_given_train_exact": "0.892",
+        "setting": "Hid-Full",
+        "system": "symbolic exact-search",
+        "train_exact": "0.900",
+        "valid": "0.900"
+      }
+    ]
+  }
+}
