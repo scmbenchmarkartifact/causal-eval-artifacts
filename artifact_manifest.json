@@ -79,8 +79,8 @@
     },
     {
       "path": "data/metadata/croissant.json",
-      "bytes": 21122,
-      "sha256": "a5934c6c2e5ea223f7168e9c1a48862d9a822422f52a9ebfd8b050baf16fc303"
+      "bytes": 22373,
+      "sha256": "d57a074418bb15ce9afe509184b73979be267847f52660968f4d01d178969e04"
     },
     {
       "path": "data/reference/paper_model_results_expected.json",

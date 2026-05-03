@@ -310,42 +310,70 @@
       "@type": "cr:RecordSet",
       "@id": "scm_problem_schema",
       "name": "SCM problem record schema",
-      "description": "Logical schema for problem records inside each runtime YAML file.",
+      "description": "One record per top-level field used by SCM problem records inside each runtime YAML file.",
+      "key": {
+        "@id": "scm_problem_schema/field_name"
+      },
       "field": [
         {
           "@type": "cr:Field",
-          "@id": "scm_problem_schema/instanceId",
-          "name": "instanceId",
-          "dataType": "sc:Text",
-          "value": "Unique problem identifier."
+          "@id": "scm_problem_schema/field_name",
+          "name": "field_name",
+          "description": "Top-level field name in a runtime YAML problem record.",
+          "dataType": "sc:Text"
         },
         {
           "@type": "cr:Field",
-          "@id": "scm_problem_schema/problemDescription",
-          "name": "problemDescription",
-          "dataType": "sc:Text",
-          "value": "Prompt-facing task metadata, variables, interventions, and world observations."
+          "@id": "scm_problem_schema/description",
+          "name": "description",
+          "description": "Field meaning.",
+          "dataType": "sc:Text"
         },
         {
           "@type": "cr:Field",
-          "@id": "scm_problem_schema/goldAnswer",
-          "name": "goldAnswer",
-          "dataType": "sc:Text",
-          "value": "Reference SCM mechanisms and held-out evaluation worlds."
+          "@id": "scm_problem_schema/value_type",
+          "name": "value_type",
+          "description": "Logical type used in the YAML record.",
+          "dataType": "sc:Text"
         },
         {
           "@type": "cr:Field",
-          "@id": "scm_problem_schema/llmResults",
-          "name": "llmResults",
-          "dataType": "sc:Text",
-          "value": "Optional embedded model responses and deterministic evaluation records."
+          "@id": "scm_problem_schema/required",
+          "name": "required",
+          "description": "Whether the field is expected for every benchmark problem record.",
+          "dataType": "sc:Boolean"
+        }
+      ],
+      "data": [
+        {
+          "scm_problem_schema/field_name": "instanceId",
+          "scm_problem_schema/description": "Unique problem identifier.",
+          "scm_problem_schema/value_type": "string",
+          "scm_problem_schema/required": true
         },
         {
-          "@type": "cr:Field",
-          "@id": "scm_problem_schema/modelResults",
-          "name": "modelResults",
-          "dataType": "sc:Text",
-          "value": "Optional keyed model-result mapping in newer runtime files."
+          "scm_problem_schema/field_name": "problemDescription",
+          "scm_problem_schema/description": "Prompt-facing task metadata, variables, interventions, and world observations.",
+          "scm_problem_schema/value_type": "mapping",
+          "scm_problem_schema/required": true
+        },
+        {
+          "scm_problem_schema/field_name": "goldAnswer",
+          "scm_problem_schema/description": "Reference SCM mechanisms and held-out evaluation worlds.",
+          "scm_problem_schema/value_type": "mapping",
+          "scm_problem_schema/required": true
+        },
+        {
+          "scm_problem_schema/field_name": "llmResults",
+          "scm_problem_schema/description": "Optional embedded list of model responses and deterministic evaluation records.",
+          "scm_problem_schema/value_type": "list",
+          "scm_problem_schema/required": false
+        },
+        {
+          "scm_problem_schema/field_name": "modelResults",
+          "scm_problem_schema/description": "Optional keyed model-result mapping in newer runtime files.",
+          "scm_problem_schema/value_type": "mapping",
+          "scm_problem_schema/required": false
         }
       ]
     }
