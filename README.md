@@ -110,6 +110,7 @@ Representative frozen paper results from `topline_results_main` are:
 | --- | ---: | ---: | ---: |
 | GPT-5.4 | 0.344 | 0.410 | 0.292 |
 | Opus 4.6 | 0.292 | 0.240 | 0.164 |
+| Grok 4.3 | 0.068 | 0.060 | 0.032 |
 | bnlearn+DSL | 0.596 | 0.620 | 0.620 |
 | symbolic exact-search | 0.596 | 0.650 | 0.536 |
 
@@ -122,16 +123,15 @@ python scripts/validate_paper_results.py \
   --outdir outputs/paper_result_validation
 ```
 
-Rows for an in-progress model run can be excluded from the comparison by model
-id or display name. For example, to validate the submitted tables while
-excluding `grok4.3` and accepting last-digit display rounding:
+For future partial-refresh checks, rows for an in-progress model run can be
+excluded from the comparison by model id or display name:
 
 ```bash
 python scripts/validate_paper_results.py \
   --expected data/reference/paper_model_results_expected.json \
-  --ignore-model grok4.3 \
+  --ignore-model model-id-or-display-name \
   --numeric-tolerance 0.001 \
-  --outdir outputs/paper_result_validation_ignore_grok43
+  --outdir outputs/paper_result_validation_partial_refresh
 ```
 
 This command does not run LLM calls, symbolic solvers, SCM generation, or

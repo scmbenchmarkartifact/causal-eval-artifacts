@@ -1,7 +1,21 @@
 {
   "metadata": {
-    "source": "paper_generated_tex_tables",
-    "source_detail": "Parsed from paper generated TeX table files."
+    "benchmark_problem_counts": {
+      "alt_exp_ntopo_100": 100,
+      "alt_exp_ordered_100": 100,
+      "ntopo_250": 250,
+      "ntopo_audit_100": 100,
+      "ntopo_counterexample_100": 100,
+      "ordered_250": 250,
+      "ordered_audit_100": 100,
+      "ordered_counterexample_100": 100,
+      "partial_order_100": 100,
+      "root_unknown_ntopo_100": 100
+    },
+    "generation_or_rescoring": false,
+    "result_row_count": 15481,
+    "source": "runtime_yaml_embedded_evaluations",
+    "source_detail": "Reference aggregate table values for the current release, computed replay-only from frozen runtime evaluation records."
   },
   "tables": {
     "diagnostic_decomposition_main_panel_a": [
@@ -64,7 +78,7 @@
         "alt_train_exact": "0.390",
         "experiment_witness": "0.360",
         "joint_leave_model_out": "0.408",
-        "paired_train_correct": "0.050",
+        "paired_train_correct": "0.070",
         "setting": "Alt-Hid",
         "system": "Grok 4.3"
       },
@@ -145,7 +159,7 @@
         "alt_train_exact": "0.430",
         "experiment_witness": "0.420",
         "joint_leave_model_out": "0.479",
-        "paired_train_correct": "0.070",
+        "paired_train_correct": "0.100",
         "setting": "Alt-Ord",
         "system": "Grok 4.3"
       },
@@ -230,14 +244,14 @@
         "train_exact_given_root_exact": "0.133"
       },
       {
-        "heldout_exact": "0.010",
-        "heldout_exact_given_root_exact": "0.091",
-        "heldout_world": "0.046",
-        "heldout_world_given_root_exact": "0.148",
-        "root_exact": "0.110",
+        "heldout_exact": "0.030",
+        "heldout_exact_given_root_exact": "0.176",
+        "heldout_world": "0.061",
+        "heldout_world_given_root_exact": "0.243",
+        "root_exact": "0.170",
         "system": "Grok 4.3",
-        "train_exact": "0.010",
-        "train_exact_given_root_exact": "0.091"
+        "train_exact": "0.030",
+        "train_exact_given_root_exact": "0.176"
       },
       {
         "heldout_exact": "0.000",
@@ -300,7 +314,7 @@
         "n": "100",
         "setting": "Ord-Ext",
         "train_exact": "0.380",
-        "train_world": "0.824",
+        "train_world": "0.825",
         "valid": "0.980"
       },
       {
@@ -355,8 +369,8 @@
         "n": "100",
         "setting": "Ord-Ext",
         "train_exact": "0.020",
-        "train_world": "0.151",
-        "valid": "0.530"
+        "train_world": "0.150",
+        "valid": "1.000"
       },
       {
         "heldout_exact": "0.020",
@@ -426,13 +440,13 @@
       },
       {
         "heldout_exact": "0.110",
-        "heldout_world": "0.466",
+        "heldout_world": "0.467",
         "heldout_world_given_train_exact": "0.971",
         "model": "Grok 4.20",
         "n": "100",
         "setting": "Hid-Ext",
         "train_exact": "0.130",
-        "train_world": "0.499",
+        "train_world": "0.498",
         "valid": "0.970"
       },
       {
@@ -447,15 +461,15 @@
         "valid": "0.990"
       },
       {
-        "heldout_exact": "0.030",
-        "heldout_world": "0.127",
+        "heldout_exact": "0.050",
+        "heldout_world": "0.138",
         "heldout_world_given_train_exact": "*",
         "model": "Grok 4.3",
         "n": "100",
         "setting": "Hid-Ext",
-        "train_exact": "0.030",
-        "train_world": "0.170",
-        "valid": "0.730"
+        "train_exact": "0.050",
+        "train_world": "0.171",
+        "valid": "0.950"
       },
       {
         "heldout_exact": "0.000",
@@ -531,7 +545,7 @@
         "n": "100",
         "setting": "Ord-CEx",
         "train_exact": "0.230",
-        "train_world": "0.596",
+        "train_world": "0.597",
         "valid": "1.000"
       },
       {
@@ -547,14 +561,14 @@
       },
       {
         "heldout_exact": "0.020",
-        "heldout_world": "0.119",
+        "heldout_world": "0.133",
         "heldout_world_given_train_exact": "*",
         "model": "Grok 4.3",
         "n": "100",
         "setting": "Ord-CEx",
         "train_exact": "0.020",
-        "train_world": "0.123",
-        "valid": "0.930"
+        "train_world": "0.136",
+        "valid": "0.980"
       },
       {
         "heldout_exact": "0.000",
@@ -645,15 +659,15 @@
         "valid": "0.930"
       },
       {
-        "heldout_exact": "0.020",
-        "heldout_world": "0.071",
-        "heldout_world_given_train_exact": "*",
+        "heldout_exact": "0.060",
+        "heldout_world": "0.144",
+        "heldout_world_given_train_exact": "1.000",
         "model": "Grok 4.3",
         "n": "100",
         "setting": "Hid-CEx",
-        "train_exact": "0.020",
-        "train_world": "0.064",
-        "valid": "0.300"
+        "train_exact": "0.060",
+        "train_world": "0.143",
+        "valid": "0.860"
       },
       {
         "heldout_exact": "0.000",
@@ -664,7 +678,7 @@
         "setting": "Hid-CEx",
         "train_exact": "0.000",
         "train_world": "0.035",
-        "valid": "0.920"
+        "valid": "0.980"
       },
       {
         "heldout_exact": "0.000",
@@ -746,14 +760,14 @@
         "model": "Grok 4"
       },
       {
-        "Block": "0.100",
-        "Hid-CEx": "0.020",
-        "Hid-Ext": "0.030",
-        "Hid-Match": "0.050",
-        "Hid-Roots": "0.010",
+        "Block": "0.110",
+        "Hid-CEx": "0.060",
+        "Hid-Ext": "0.050",
+        "Hid-Match": "0.070",
+        "Hid-Roots": "0.030",
         "Ord-CEx": "0.020",
         "Ord-Ext": "0.020",
-        "Ord-Match": "0.070",
+        "Ord-Match": "0.100",
         "model": "Grok 4.3"
       },
       {
@@ -841,14 +855,14 @@
         "valid": "0.980"
       },
       {
-        "heldout_exact": "0.060",
-        "heldout_exact_given_train_exact": "0.556",
-        "heldout_world": "0.317",
-        "heldout_world_given_train_exact": "0.889",
+        "heldout_exact": "0.068",
+        "heldout_exact_given_train_exact": "0.567",
+        "heldout_world": "0.244",
+        "heldout_world_given_train_exact": "0.892",
         "setting": "Ord-Full",
         "system": "Grok 4.3",
-        "train_exact": "0.108",
-        "valid": "0.512"
+        "train_exact": "0.120",
+        "valid": "0.976"
       },
       {
         "heldout_exact": "0.024",
@@ -951,14 +965,14 @@
         "valid": "0.990"
       },
       {
-        "heldout_exact": "0.050",
-        "heldout_exact_given_train_exact": "0.500",
-        "heldout_world": "0.217",
-        "heldout_world_given_train_exact": "0.863",
+        "heldout_exact": "0.060",
+        "heldout_exact_given_train_exact": "0.545",
+        "heldout_world": "0.205",
+        "heldout_world_given_train_exact": "0.875",
         "setting": "Block",
         "system": "Grok 4.3",
-        "train_exact": "0.100",
-        "valid": "0.730"
+        "train_exact": "0.110",
+        "valid": "0.920"
       },
       {
         "heldout_exact": "0.010",
@@ -1061,14 +1075,14 @@
         "valid": "0.976"
       },
       {
-        "heldout_exact": "0.028",
-        "heldout_exact_given_train_exact": "0.467",
-        "heldout_world": "0.255",
-        "heldout_world_given_train_exact": "0.842",
+        "heldout_exact": "0.032",
+        "heldout_exact_given_train_exact": "0.400",
+        "heldout_world": "0.200",
+        "heldout_world_given_train_exact": "0.838",
         "setting": "Hid-Full",
         "system": "Grok 4.3",
-        "train_exact": "0.060",
-        "valid": "0.372"
+        "train_exact": "0.080",
+        "valid": "0.804"
       },
       {
         "heldout_exact": "0.000",
