@@ -462,14 +462,14 @@
       },
       {
         "heldout_exact": "0.050",
-        "heldout_world": "0.138",
+        "heldout_world": "0.135",
         "heldout_world_given_train_exact": "*",
         "model": "Grok 4.3",
         "n": "100",
         "setting": "Hid-Ext",
         "train_exact": "0.050",
-        "train_world": "0.171",
-        "valid": "0.950"
+        "train_world": "0.175",
+        "valid": "0.980"
       },
       {
         "heldout_exact": "0.000",
@@ -660,14 +660,14 @@
       },
       {
         "heldout_exact": "0.060",
-        "heldout_world": "0.144",
+        "heldout_world": "0.165",
         "heldout_world_given_train_exact": "1.000",
         "model": "Grok 4.3",
         "n": "100",
         "setting": "Hid-CEx",
         "train_exact": "0.060",
-        "train_world": "0.143",
-        "valid": "0.860"
+        "train_world": "0.169",
+        "valid": "0.980"
       },
       {
         "heldout_exact": "0.000",
@@ -857,12 +857,12 @@
       {
         "heldout_exact": "0.068",
         "heldout_exact_given_train_exact": "0.567",
-        "heldout_world": "0.244",
+        "heldout_world": "0.243",
         "heldout_world_given_train_exact": "0.892",
         "setting": "Ord-Full",
         "system": "Grok 4.3",
         "train_exact": "0.120",
-        "valid": "0.976"
+        "valid": "0.988"
       },
       {
         "heldout_exact": "0.024",
@@ -967,22 +967,22 @@
       {
         "heldout_exact": "0.060",
         "heldout_exact_given_train_exact": "0.545",
-        "heldout_world": "0.205",
+        "heldout_world": "0.206",
         "heldout_world_given_train_exact": "0.875",
         "setting": "Block",
         "system": "Grok 4.3",
         "train_exact": "0.110",
-        "valid": "0.920"
+        "valid": "0.970"
       },
       {
         "heldout_exact": "0.010",
         "heldout_exact_given_train_exact": "*",
-        "heldout_world": "0.081",
+        "heldout_world": "0.079",
         "heldout_world_given_train_exact": "*",
         "setting": "Block",
         "system": "KimiK2t",
         "train_exact": "0.010",
-        "valid": "0.960"
+        "valid": "0.980"
       },
       {
         "heldout_exact": "0.010",
@@ -1076,13 +1076,13 @@
       },
       {
         "heldout_exact": "0.032",
-        "heldout_exact_given_train_exact": "0.400",
-        "heldout_world": "0.200",
-        "heldout_world_given_train_exact": "0.838",
+        "heldout_exact_given_train_exact": "0.381",
+        "heldout_world": "0.191",
+        "heldout_world_given_train_exact": "0.833",
         "setting": "Hid-Full",
         "system": "Grok 4.3",
-        "train_exact": "0.080",
-        "valid": "0.804"
+        "train_exact": "0.084",
+        "valid": "0.972"
       },
       {
         "heldout_exact": "0.000",

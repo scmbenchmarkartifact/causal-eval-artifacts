@@ -111,20 +111,20 @@
       "@id": "benchmark-cind-a-scm-benchmark240-final-v1-runtime",
       "name": "cind_a_scm_benchmark240_final_v1.runtime.yaml",
       "description": "Frozen runtime YAML file containing benchmark problem records and embedded evaluation records where available.",
-      "contentSize": "82944200",
+      "contentSize": "82955433",
       "contentUrl": "https://raw.githubusercontent.com/scmbenchmarkartifact/causal-eval-artifacts/main/data/benchmarks/cind_a_scm_benchmark240_final_v1.runtime.yaml",
       "encodingFormat": "application/x-yaml",
-      "sha256": "00cf176dd189e480011ef57f1a8138d99027af65892cfaa923461cbe8a0c6ca9"
+      "sha256": "c7f37486bf1cd9524bb6d82e293c32caa029a2f9351272ade71e27d77fa69817"
     },
     {
       "@type": "cr:FileObject",
       "@id": "benchmark-cind-a-scm-ident-audit-ntopo-pairs100-v1-runtime",
       "name": "cind_a_scm_ident_audit_ntopo_pairs100_v1.runtime.yaml",
       "description": "Frozen runtime YAML file containing benchmark problem records and embedded evaluation records where available.",
-      "contentSize": "34400319",
+      "contentSize": "34411076",
       "contentUrl": "https://raw.githubusercontent.com/scmbenchmarkartifact/causal-eval-artifacts/main/data/benchmarks/cind_a_scm_ident_audit_ntopo_pairs100_v1.runtime.yaml",
       "encodingFormat": "application/x-yaml",
-      "sha256": "68c89f956c51bc14aad7b3e086b9715b6c879b90dec3e80c39a404d7a8fbc28c"
+      "sha256": "edc5229f12ff9cc6dccec1ef9c12333237eb6a29bd8d626115d64414323d51ae"
     },
     {
       "@type": "cr:FileObject",
@@ -141,10 +141,10 @@
       "@id": "benchmark-cind-a-scm-ident-counterexample-ntopo-pairs100-v5-runtime",
       "name": "cind_a_scm_ident_counterexample_ntopo_pairs100_v5.runtime.yaml",
       "description": "Frozen runtime YAML file containing benchmark problem records and embedded evaluation records where available.",
-      "contentSize": "36068727",
+      "contentSize": "36113617",
       "contentUrl": "https://raw.githubusercontent.com/scmbenchmarkartifact/causal-eval-artifacts/main/data/benchmarks/cind_a_scm_ident_counterexample_ntopo_pairs100_v5.runtime.yaml",
       "encodingFormat": "application/x-yaml",
-      "sha256": "a865cb93bfff3ec27299c2917dfc2fc70f131a035fdf4449f0ebbe85a7e8f8e3"
+      "sha256": "efe9667c2c477cb938216e947d1f371bb6908904e0bed97701cc7a75f710dc28"
     },
     {
       "@type": "cr:FileObject",
@@ -161,30 +161,30 @@
       "@id": "benchmark-cind-a-scm-ntopo-benchmark240-final-v1-runtime",
       "name": "cind_a_scm_ntopo_benchmark240_final_v1.runtime.yaml",
       "description": "Frozen runtime YAML file containing benchmark problem records and embedded evaluation records where available.",
-      "contentSize": "85808078",
+      "contentSize": "85967736",
       "contentUrl": "https://raw.githubusercontent.com/scmbenchmarkartifact/causal-eval-artifacts/main/data/benchmarks/cind_a_scm_ntopo_benchmark240_final_v1.runtime.yaml",
       "encodingFormat": "application/x-yaml",
-      "sha256": "72fd250974d0f83771b528555768236fc1c0d369d9a7626602d1502123957e5d"
+      "sha256": "acee26065448c3a2d0d6344b7ead8d385a7c96b1311e9dcc0384655ffc10b47c"
     },
     {
       "@type": "cr:FileObject",
       "@id": "benchmark-cind-a-scm-paired50-partial-order-mixed25-2block25-3block-v3-runtime",
       "name": "cind_a_scm_paired50_partial_order_mixed25_2block25_3block_v3.runtime.yaml",
       "description": "Frozen runtime YAML file containing benchmark problem records and embedded evaluation records where available.",
-      "contentSize": "37507821",
+      "contentSize": "37546204",
       "contentUrl": "https://raw.githubusercontent.com/scmbenchmarkartifact/causal-eval-artifacts/main/data/benchmarks/cind_a_scm_paired50_partial_order_mixed25_2block25_3block_v3.runtime.yaml",
       "encodingFormat": "application/x-yaml",
-      "sha256": "c9bbb17a9abc6fbd3976a2987b53c48fb26f4d6f966db1fb2039b870e1a56e4e"
+      "sha256": "ed07cda18084d8a407695196c730094101f766616bb56358289ae3eb47c9d3b9"
     },
     {
       "@type": "cr:FileObject",
       "@id": "benchmark-cind-a-scm-root-unknown-paired90-ntopo-v1-runtime",
       "name": "cind_a_scm_root_unknown_paired90_ntopo_v1.runtime.yaml",
       "description": "Frozen runtime YAML file containing benchmark problem records and embedded evaluation records where available.",
-      "contentSize": "33981864",
+      "contentSize": "33993918",
       "contentUrl": "https://raw.githubusercontent.com/scmbenchmarkartifact/causal-eval-artifacts/main/data/benchmarks/cind_a_scm_root_unknown_paired90_ntopo_v1.runtime.yaml",
       "encodingFormat": "application/x-yaml",
-      "sha256": "13abca636d7522af2738a059b3c109ebc87acec0c9b870cd1ea9a031d75fdb9d"
+      "sha256": "c5a9d06eb396a8ba22a904ef2cf6c0d1a71bbb25736c9e3369f6ec65c0430f2b"
     }
   ],
   "recordSet": [
@@ -253,14 +253,14 @@
           "benchmark_runtime_files/repository_path": "data/benchmarks/cind_a_scm_benchmark240_final_v1.runtime.yaml",
           "benchmark_runtime_files/content_url": "https://raw.githubusercontent.com/scmbenchmarkartifact/causal-eval-artifacts/main/data/benchmarks/cind_a_scm_benchmark240_final_v1.runtime.yaml",
           "benchmark_runtime_files/encoding_format": "application/x-yaml",
-          "benchmark_runtime_files/sha256": "00cf176dd189e480011ef57f1a8138d99027af65892cfaa923461cbe8a0c6ca9"
+          "benchmark_runtime_files/sha256": "c7f37486bf1cd9524bb6d82e293c32caa029a2f9351272ade71e27d77fa69817"
         },
         {
           "benchmark_runtime_files/file_name": "cind_a_scm_ident_audit_ntopo_pairs100_v1.runtime.yaml",
           "benchmark_runtime_files/repository_path": "data/benchmarks/cind_a_scm_ident_audit_ntopo_pairs100_v1.runtime.yaml",
           "benchmark_runtime_files/content_url": "https://raw.githubusercontent.com/scmbenchmarkartifact/causal-eval-artifacts/main/data/benchmarks/cind_a_scm_ident_audit_ntopo_pairs100_v1.runtime.yaml",
           "benchmark_runtime_files/encoding_format": "application/x-yaml",
-          "benchmark_runtime_files/sha256": "68c89f956c51bc14aad7b3e086b9715b6c879b90dec3e80c39a404d7a8fbc28c"
+          "benchmark_runtime_files/sha256": "edc5229f12ff9cc6dccec1ef9c12333237eb6a29bd8d626115d64414323d51ae"
         },
         {
           "benchmark_runtime_files/file_name": "cind_a_scm_ident_audit_ordered_pairs100_v1.runtime.yaml",
@@ -274,7 +274,7 @@
           "benchmark_runtime_files/repository_path": "data/benchmarks/cind_a_scm_ident_counterexample_ntopo_pairs100_v5.runtime.yaml",
           "benchmark_runtime_files/content_url": "https://raw.githubusercontent.com/scmbenchmarkartifact/causal-eval-artifacts/main/data/benchmarks/cind_a_scm_ident_counterexample_ntopo_pairs100_v5.runtime.yaml",
           "benchmark_runtime_files/encoding_format": "application/x-yaml",
-          "benchmark_runtime_files/sha256": "a865cb93bfff3ec27299c2917dfc2fc70f131a035fdf4449f0ebbe85a7e8f8e3"
+          "benchmark_runtime_files/sha256": "efe9667c2c477cb938216e947d1f371bb6908904e0bed97701cc7a75f710dc28"
         },
         {
           "benchmark_runtime_files/file_name": "cind_a_scm_ident_counterexample_ordered_pairs100_v5.runtime.yaml",
@@ -288,21 +288,21 @@
           "benchmark_runtime_files/repository_path": "data/benchmarks/cind_a_scm_ntopo_benchmark240_final_v1.runtime.yaml",
           "benchmark_runtime_files/content_url": "https://raw.githubusercontent.com/scmbenchmarkartifact/causal-eval-artifacts/main/data/benchmarks/cind_a_scm_ntopo_benchmark240_final_v1.runtime.yaml",
           "benchmark_runtime_files/encoding_format": "application/x-yaml",
-          "benchmark_runtime_files/sha256": "72fd250974d0f83771b528555768236fc1c0d369d9a7626602d1502123957e5d"
+          "benchmark_runtime_files/sha256": "acee26065448c3a2d0d6344b7ead8d385a7c96b1311e9dcc0384655ffc10b47c"
         },
         {
           "benchmark_runtime_files/file_name": "cind_a_scm_paired50_partial_order_mixed25_2block25_3block_v3.runtime.yaml",
           "benchmark_runtime_files/repository_path": "data/benchmarks/cind_a_scm_paired50_partial_order_mixed25_2block25_3block_v3.runtime.yaml",
           "benchmark_runtime_files/content_url": "https://raw.githubusercontent.com/scmbenchmarkartifact/causal-eval-artifacts/main/data/benchmarks/cind_a_scm_paired50_partial_order_mixed25_2block25_3block_v3.runtime.yaml",
           "benchmark_runtime_files/encoding_format": "application/x-yaml",
-          "benchmark_runtime_files/sha256": "c9bbb17a9abc6fbd3976a2987b53c48fb26f4d6f966db1fb2039b870e1a56e4e"
+          "benchmark_runtime_files/sha256": "ed07cda18084d8a407695196c730094101f766616bb56358289ae3eb47c9d3b9"
         },
         {
           "benchmark_runtime_files/file_name": "cind_a_scm_root_unknown_paired90_ntopo_v1.runtime.yaml",
           "benchmark_runtime_files/repository_path": "data/benchmarks/cind_a_scm_root_unknown_paired90_ntopo_v1.runtime.yaml",
           "benchmark_runtime_files/content_url": "https://raw.githubusercontent.com/scmbenchmarkartifact/causal-eval-artifacts/main/data/benchmarks/cind_a_scm_root_unknown_paired90_ntopo_v1.runtime.yaml",
           "benchmark_runtime_files/encoding_format": "application/x-yaml",
-          "benchmark_runtime_files/sha256": "13abca636d7522af2738a059b3c109ebc87acec0c9b870cd1ea9a031d75fdb9d"
+          "benchmark_runtime_files/sha256": "c5a9d06eb396a8ba22a904ef2cf6c0d1a71bbb25736c9e3369f6ec65c0430f2b"
         }
       ]
     },
@@ -378,5 +378,5 @@
       ]
     }
   ],
-  "dateModified": "2026-05-04"
+  "dateModified": "2026-05-05"
 }
