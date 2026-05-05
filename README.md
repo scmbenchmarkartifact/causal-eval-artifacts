@@ -186,10 +186,10 @@ artifact. Reviewers can inspect prompts and score any externally generated
 predictions through `scripts/score_predictions.py` without API keys or provider
 accounts.
 
-The dataset should be hosted on a dedicated dataset platform for NeurIPS
-submission. If the code repository host has size limits, keep `data/samples/`
-in the code repository and upload `data/benchmarks/` plus Croissant metadata to
-the dataset host.
+For NeurIPS submission, this public GitHub repository serves as the custom
+dataset hosting URL for reviewer access. If a later archival release is moved
+to a preferred dataset platform, upload `data/benchmarks/` together with the
+Croissant metadata file and update the dataset URL accordingly.
 
 ## Licenses
 
