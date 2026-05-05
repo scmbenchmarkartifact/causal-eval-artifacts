@@ -260,6 +260,8 @@ def strict_mechanism_heldout_exact(evaluation: dict[str, Any]) -> bool:
 
 
 def iter_results(record: dict[str, Any]) -> list[dict[str, Any]]:
+    # Runtime snapshots exist in two equivalent encodings. Older files use a
+    # list of llmResults; newer refreshes may use a model-keyed map.
     model_results = record.get("modelResults")
     if isinstance(model_results, dict):
         out = []
@@ -280,6 +282,8 @@ def result_row(benchmark_key: str, record: dict[str, Any], result: dict[str, Any
     train_world = evaluation.get("trainWorldExactAccuracy")
     heldout_world = evaluation.get("heldoutWorldExactAccuracy")
     if benchmark_key in {"ordered_counterexample_100", "ntopo_counterexample_100"} and evaluation.get("valid") is not True:
+        # Counterexample-audit tables treat invalid submissions as zero world
+        # accuracy so that parse/format failures cannot inflate partial scores.
         train_world = 0.0
         heldout_world = 0.0
     return {
@@ -337,6 +341,9 @@ def load_release_records(benchmarks_dir: Path) -> tuple[list[dict[str, Any]], li
 
 
 def latest_result_rows(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    # Some runtime files keep multiple attempts for the same
+    # benchmark/problem/model after incremental refreshes. Paper tables use the
+    # last embedded attempt, matching the order in the frozen YAML.
     latest: dict[tuple[str, str, str], dict[str, Any]] = {}
     for row in rows:
         key = (
@@ -492,6 +499,8 @@ def information_ladder_table(problems: list[dict[str, Any]], results: list[dict[
     for model in LLM_ORDER:
         row = {"model": display_model(model)}
         per_benchmark = {bench: by_model_bench_pair.get((model, bench), {}) for bench in COMMON_LADDER_ORDER}
+        # The ladder compares settings on the same underlying problem pool, so
+        # each model is restricted to paired ids present in every ladder slice.
         aligned_for_model = set(common_pool)
         for bench in COMMON_LADDER_ORDER:
             aligned_for_model &= set(per_benchmark[bench].keys())
@@ -814,6 +823,8 @@ def compare_values(actual_value: Any, expected_value: Any, tolerance: float) -> 
     actual_float = parse_float(actual_value)
     expected_float = parse_float(expected_value)
     if actual_float is not None and expected_float is not None:
+        # Table entries are printed to three decimals; the small epsilon avoids
+        # binary floating-point artifacts at the requested tolerance boundary.
         return abs(actual_float - expected_float) <= tolerance + 1e-12
     return str(actual_value) == str(expected_value)
 

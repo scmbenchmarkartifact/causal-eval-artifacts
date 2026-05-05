@@ -139,13 +139,13 @@
     },
     {
       "path": "scripts/score_predictions.py",
-      "bytes": 8205,
-      "sha256": "55413ff7aec5fb48cbff0f347e36ef423f505d0caf041ff6af5b00ae3ac7af9d"
+      "bytes": 8551,
+      "sha256": "a7a3cb0117c34208250c299743493ae784089da1c880521fe90b3020eaf9ba59"
     },
     {
       "path": "scripts/validate_paper_results.py",
-      "bytes": 37177,
-      "sha256": "e76de38723ea956760e2bfb93799d452e51a0da1ca07ceff89ab0809e5b507cd"
+      "bytes": 38008,
+      "sha256": "f044e8cfd1875cad548e5c1a122ddae7245acff291e98f41e816744f36b16909"
     },
     {
       "path": "scripts/verify_artifact.sh",
@@ -259,8 +259,8 @@
     },
     {
       "path": "src/concept_synth/causal_reasoning/evaluator.py",
-      "bytes": 30901,
-      "sha256": "42ebba690410105fa937856678166476787c2d7c53029e67622557432e08d760"
+      "bytes": 31414,
+      "sha256": "c0c96b384dfd3fd11ede5356b5d225149b37cd8f7b23811b80bc5d6824ddac56"
     },
     {
       "path": "src/concept_synth/causal_reasoning/mechanism_dsl.py",

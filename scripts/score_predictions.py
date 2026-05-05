@@ -6,6 +6,9 @@ instance identifier and either a raw response string or an extracted answer:
 
 {"instanceId": "...", "model": "my-model", "response": "{\"mechanisms\": {...}}"}
 {"instanceId": "...", "model": "my-model", "extractedAnswer": {"mechanisms": {...}}}
+
+This script is intentionally offline: it never calls model providers and only
+evaluates predictions supplied by the caller.
 """
 
 from __future__ import annotations
@@ -62,6 +65,7 @@ def _problem_instance_id(record: Dict[str, Any], fallback: str) -> str:
 
 
 def _to_llm_result(prediction: Dict[str, Any], default_model: str) -> Dict[str, Any]:
+    """Adapt public prediction records to the historical embedded-result schema."""
     result: Dict[str, Any] = {
         "model": str(prediction.get("model") or default_model),
     }
@@ -105,6 +109,8 @@ def _score_predictions(
             continue
 
         llm_result = _to_llm_result(prediction, default_model)
+        # Deterministic local evaluation only: parse the submitted answer and
+        # simulate it against the frozen benchmark worlds.
         evaluation = evaluate_causal_llm_result(
             problem=problems_by_id[instance_id],
             result=llm_result,

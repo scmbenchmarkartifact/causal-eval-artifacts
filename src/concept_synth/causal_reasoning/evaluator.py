@@ -54,7 +54,9 @@ def _extract_answer_fallback(response: str) -> Tuple[Optional[Dict[str, Any]], O
     except Exception:
         pass
 
-    # Lightweight extraction of the first JSON object in free-form text.
+    # Lightweight extraction of the first JSON object in free-form text. This
+    # fallback keeps the public scorer usable for plain JSON predictions without
+    # depending on provider-specific response wrappers.
     start = response.find("{")
     end = response.rfind("}")
     if start >= 0 and end > start:
@@ -751,7 +753,12 @@ def evaluate_causal_llm_result(
     task_name: Optional[str] = None,
     registry: CausalTaskRegistry = DEFAULT_CAUSAL_TASK_REGISTRY,
 ) -> CausalEvaluationResult:
-    """Evaluate a single model result against a causal task hook."""
+    """Evaluate one already-collected model result against a causal task hook.
+
+    The evaluator is deterministic: task hooks parse the supplied text or
+    extracted answer and compare candidate mechanisms against frozen worlds.
+    It does not call external models or mutate the benchmark problem.
+    """
     _ensure_default_registry_seeded(registry)
 
     resolved_task_name = task_name or _infer_task_name(problem)
@@ -765,6 +772,8 @@ def evaluate_causal_llm_result(
     else:
         response = result.get("rawResponse") or result.get("response") or ""
         if task and task.extract_answer:
+            # Task-specific extractors normalize output formats; they are local
+            # parsers, not model-generation steps.
             answer, parse_error = task.extract_answer(response)
         else:
             answer, parse_error = _extract_answer_fallback(response)
